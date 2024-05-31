@@ -15,6 +15,7 @@ body {
 }
 
 .login-student {
+  position: relative;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -22,14 +23,23 @@ body {
 
   & .bismillah {
     padding-top: 1rem;
-    width: 50%;
     margin: 0 auto;
+    position: absolute;
+    left: 50px;
+    top: 300px;
+    width: 80%;
+    opacity: 0;
+    animation: fadeIn 1s 1s forwards, moveIn 1s 2s forwards; 
   }
 
   & h1 {
     color: var(--ilm-color);
     font-size: 3rem;
     font-weight: 400;
+    opacity: 0;
+    margin: 9rem 0 0 0;
+    animation: fadeIn 3s 3s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+
   }
 
   & form {
@@ -37,19 +47,21 @@ body {
     text-align: left;
     flex-direction: column;
     padding: 1rem;
-    margin: auto 0;
+    opacity: 0;
+    animation: fadeIn 3s 3.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+    /* margin: auto 0; */
 
     & label {
       display: flex;
       margin: 1rem 0;
       flex-direction: column;
-      font-size: 1.2rem;
+      font-size: 1rem;
       color: var(--ilm-color);
       font-weight: 800;
 
       & input {
         padding: .7rem;
-        font-size: 1.2rem;
+        font-size: 1rem;
         border: solid var(--ilm-color) 3px;
         border-radius: .5rem;
         margin-top: .5rem;
@@ -64,7 +76,7 @@ body {
       padding: 1rem 2rem;
       border-radius: .5rem;
       border: none;
-      font-size: 1.2rem;
+      font-size: 1rem;
       margin: 0 0 1rem 0;
     }
 
@@ -73,5 +85,28 @@ body {
       margin-top: 1rem;
       font-size: 1.1rem;
     }
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes moveIn {
+  from {
+    left: 50px;
+    top: 300px;
+    width: 80%;
+  }
+  to {
+    width: 50%;
+    left: 110px;
+    top: 40px;
   }
 }
