@@ -138,6 +138,6 @@ body {
   from {
     transform: translateY(500px)
   } to {
-    transform: translateY(0px)
+    transform: translateY(150px)
   }
 }
