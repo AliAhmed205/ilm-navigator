@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
 
 :root {
-  --ilm-color: #2B4034;
+  --ilm-sign-color: #2B4034;
+  --ilm-color-white: white;
   --ilm-font: 'Josefin Sans', sans-serif;
   --ilm-hover: #b08e38;
 
@@ -12,81 +13,103 @@
 body {
   box-sizing: border-box;
   font-family: var(--ilm-font);
+  margin: 0;
 }
 
-.login-student {
+#index-main {
   position: relative;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  height: 75vh;
+  height: 100lvh;
+  overflow: hidden;
+  background-color: rgb(255, 250, 244);
 
-  & .bismillah {
-    padding-top: 1rem;
-    margin: 0 auto;
-    position: absolute;
-    left: 50px;
-    top: 300px;
-    width: 80%;
-    opacity: 0;
-    animation: fadeIn 1s 1s forwards, moveIn 1s 2s forwards; 
-  }
-
-  & h1 {
-    color: var(--ilm-color);
-    font-size: 3rem;
-    font-weight: 400;
-    opacity: 0;
-    margin: 9rem 0 0 0;
-    animation: fadeIn 3s 3s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
-
-  }
-
-  & form {
+  .login-student {
+    position: relative;
     display: flex;
-    text-align: left;
     flex-direction: column;
-    padding: 1rem;
-    opacity: 0;
-    animation: fadeIn 3s 3.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
-    /* margin: auto 0; */
+    text-align: center;
+    height: 75vh;
 
-    & label {
+    & .bismillah {
+      padding-top: 1rem;
+      /* margin: 0 auto; */
+      position: relative;
+      left: 50px;
+      top: 300px;
+      width: 80%;
+      opacity: 0;
+      animation: fadeIn 1s 1s forwards, moveIn 1s 2s forwards;
+    }
+
+    & h1 {
+      color: var(--ilm-sign-color);
+      font-size: 3rem;
+      font-weight: 400;
+      opacity: 0;
+      margin: 9rem 0 0 0;
+      animation: fadeIn 3s 3s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+
+    }
+
+    & form {
       display: flex;
-      margin: 1rem 0;
+      text-align: left;
       flex-direction: column;
-      font-size: 1rem;
-      color: var(--ilm-color);
-      font-weight: 800;
+      padding: 1rem;
+      opacity: 0;
+      animation: fadeIn 3s 3.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+      /* margin: auto 0; */
 
-      & input {
-        padding: .7rem;
+      & label {
+        display: flex;
+        margin: 1rem 0;
+        flex-direction: column;
         font-size: 1rem;
-        border: solid var(--ilm-color) 3px;
-        border-radius: .5rem;
-        margin-top: .5rem;
+        color: var(--ilm-sign-color);
+        font-weight: 800;
 
-        &::placeholder {
-          opacity: .5;
+        & input {
+          padding: .7rem;
+          font-size: 1rem;
+          border: solid var(--ilm-sign-color) 3px;
+          border-radius: .5rem;
+          margin-top: .5rem;
+
+          &::placeholder {
+            opacity: .5;
+          }
         }
       }
-    }
 
-    & button {
-      padding: 1rem 2rem;
-      border-radius: .5rem;
-      border: none;
-      font-size: 1rem;
-      margin: 0 0 1rem 0;
-    }
+      & button {
+        padding: 1rem 2rem;
+        border-radius: .5rem;
+        border: none;
+        font-size: 1rem;
+        margin: 0 0 1rem 0;
+        background-color: var(--ilm-sign-color);
+        color: var(--ilm-color-white);
 
-    & a {
-      text-align: center;
-      margin-top: 1rem;
-      font-size: 1.1rem;
+        & i {
+          margin-right: .5rem;
+        }
+      }
+
+      & a {
+        text-align: center;
+        margin-top: 1rem;
+        font-size: 1rem;
+        color: var(--ilm-sign-color);
+      }
     }
   }
+  .index-background {
+    position: absolute;
+    bottom: 0;
+    transform: translateY(500px);
+    animation: slideUp 4s 1s forwards ;
+  }
 }
+
 
 @keyframes fadeIn {
   from {
@@ -108,5 +131,13 @@ body {
     width: 50%;
     left: 110px;
     top: 40px;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(500px)
+  } to {
+    transform: translateY(0px)
   }
 }

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Laag_1" data-name="Laag 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 360 214">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7 {
+        stroke-width: 0px;
+      }
+
+      .cls-3 {
+        fill: #fdfbe6;
+      }
+
+      .cls-8 {
+        clip-path: url(#clippath-1);
+      }
+
+      .cls-9 {
+        opacity: .9;
+      }
+
+      .cls-4 {
+        fill: url(#Naamloos_verloop_2);
+      }
+
+      .cls-5 {
+        fill: url(#Naamloos_verloop_4);
+      }
+
+      .cls-6 {
+        fill: url(#Naamloos_verloop_6);
+      }
+
+      .cls-7 {
+        fill: url(#Naamloos_verloop_3);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-2" width="360" height="214"/>
+    </clipPath>
+    <linearGradient id="Naamloos_verloop_6" data-name="Naamloos verloop 6" x1="259.65" y1="340.94" x2="165.65" y2="154.44" gradientTransform="translate(-47.5 303.71) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset=".1" stop-color="#91c1a6"/>
+      <stop offset=".46" stop-color="#2b4034"/>
+    </linearGradient>
+    <linearGradient id="Naamloos_verloop_2" data-name="Naamloos verloop 2" x1="411.84" y1="293.45" x2="98.34" y2="8.95" gradientTransform="translate(-47.5 303.71) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset=".19" stop-color="#2b4034"/>
+      <stop offset="1" stop-color="#8ec6a6"/>
+    </linearGradient>
+    <linearGradient id="Naamloos_verloop_3" data-name="Naamloos verloop 3" x1="214.84" y1="309.85" x2="198.8" y2="4.36" gradientTransform="translate(-47.5 303.71) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f6aa71"/>
+      <stop offset=".28" stop-color="#ac4017"/>
+    </linearGradient>
+    <clipPath id="clippath-1">
+      <rect class="cls-2" x="-110" y="58" width="493.61" height="239.13"/>
+    </clipPath>
+    <linearGradient id="Naamloos_verloop_4" data-name="Naamloos verloop 4" x1="239.48" y1="245.96" x2="108.48" y2="11.96" gradientTransform="translate(-47.5 303.71) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#9a3c16"/>
+      <stop offset=".52" stop-color="#f6aa71"/>
+    </linearGradient>
+  </defs>
+  <g class="cls-1">
+    <g class="cls-9">
+      <path class="cls-6" d="M-197.75,97.34v176.31H397.53V17.6s-122.17-39.05-224.69,0C70.33,56.66-197.75,97.34-197.75,97.34Z"/>
+      <path class="cls-3" d="M282.1,93.19c14.36,3.13,27.8,6.05,38.79,8.42-19.21-4.09-34.85-7.55-38.79-8.42Z"/>
+      <path class="cls-3" d="M344.28,106.52c.47.09.9.18,1.29.26-.43-.08-.86-.17-1.29-.26Z"/>
+      <path class="cls-3" d="M347.05,107.06s-.13,0-.22-.02h-.03c-.37-.08-.73-.15-1.1-.23.51.09.96.18,1.35.25Z"/>
+      <path class="cls-4" d="M477.66,129.25v176.31H-117.62V49.51S4.55,10.46,107.07,49.51c102.51,39.06,370.59,79.74,370.59,79.74Z"/>
+      <path class="cls-7" d="M424.74,59.46s-21.27-20.51-66.32-28.05c-45.05-7.52-69.92-8.41-63.2-21.98,0,0,4.24-6.86,28.28-6.43,0,0-42.5-5.58-59-.5-13,4-15.84,10.84-17,16-1.72,7.65,4.22,15.31,11.48,18.26,7.72,3.12,22.88,3.71,47.17,11.43,19.61,6.23,55.6,24.57,59.24,31.49,5.62,10.68,5.25,24.25-36.62,20.67l-73.27-11.34-8-1.5c-43.5-9-114.5-29-114.5-29C-99.01,84.01-123.33,284.93-123.33,284.93l274.3,14.4S30.64,227.53,80.14,152.14c48.33-73.59,227.29-44.38,235.86-42.93-.36-.1-.72-.19-1.09-.29.51.12.95.23,1.33.32-.05,0-.13-.02-.22-.03,27.15,7.08,54.46,13.81,63.4,14.67,0,0,92.18-21.19,45.32-64.42ZM252.11,91.98c14.18,3.88,27.44,7.5,38.3,10.44-18.97-5.09-34.41-9.37-38.3-10.44ZM313.5,108.55c-.68-.18-1.45-.37-2.28-.59-3.05-.79-7.05-1.85-11.79-3.12,3.86,1.02,7.81,2.07,11.79,3.12.76.19,1.52.39,2.28.59.46.11.89.23,1.28.33-.43-.1-.85-.21-1.28-.33Z"/>
+      <path class="cls-3" d="M282.1,93.19c14.36,3.13,27.8,6.05,38.79,8.42-19.21-4.09-34.85-7.55-38.79-8.42Z"/>
+      <path class="cls-3" d="M344.28,106.52c.47.09.9.18,1.29.26-.43-.08-.86-.17-1.29-.26Z"/>
+      <path class="cls-3" d="M347.05,107.06s-.13,0-.22-.02h-.03c-.37-.08-.73-.15-1.1-.23.51.09.96.18,1.35.25Z"/>
+      <g class="cls-8">
+        <path class="cls-5" d="M255.86,86.05h0c-63.35-10.55-123.85-28.05-123.85-28.05C-127.32,91-108,298.63-108,298.63H166.68s-123.94-65.39-78.46-143.28c12.1-20.72,34.27-34.23,60.28-42.88,73.5-16.97,157.72-3.2,164-2.47,0,0,6.98,1,7,1,.51.09,3.11.93,3.5,1-.05,0,37,8.5,37,8.5v-17.5l-104.14-16.95Z"/>
+      </g>
+    </g>
+  </g>
+</svg>
