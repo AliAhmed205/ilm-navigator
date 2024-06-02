@@ -1,20 +1,5 @@
-<main id="index-main">
-  <section class="login-student">
+  <main id="index-main">
     <img class="bismillah" src="/images/bismillah.svg" alt="">
-    <h1>Ilm Navigator</h1>
-    <form action="">
-      <label for="usernameStudent">
-        E-mail adres
-        <input type="text" id="usernameStudent" placeholder="Vul hier je e-mail adres in">
-      </label>
-      <label for="passwordStudent">
-        Wachtwoord
-        <input type="password" id="passwordStudent" placeholder="Vul hier je wachtwoord in">
-      </label>
-      <button type="submit"><i class="fa-solid fa-right-to-bracket"></i>Login</button>
-      <a href="#">Wachtwoord vergeten?</a>
-      <a href="#">Inloggen als docent</a>
-    </form>
-  </section>
+    <%- include('../components/login-component.ejs') %>
   <img  class="index-background" src="/images/index-background.svg" alt="index-background">
 </main>
