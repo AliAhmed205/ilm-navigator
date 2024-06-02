@@ -1,8 +1,9 @@
 const mongoose = require('mongoose')
 
-const mongoURI = `mongodb://${process.env.MONGODBusername}:${process.env.MONGODBpassword}@ilm-navigator.wrzmb11.mongodb.net/${process.env.MONGODBserver}`
+const mongoURI = `mongodb+srv://${process.env.MONGODBusername}:${process.env.MONGODBpassword}@ilm-navigator.wrzmb11.mongodb.net/${process.env.MONGODBserver}?retryWrites=true&w=majority`
 
-mongoose.connect(mongoURI).then(() => {
+mongoose.connect(mongoURI, {
+}).then(() => {
   console.log('Connected to Database');
 }).catch((error) => {
   console.error('Connection failed:', error);
