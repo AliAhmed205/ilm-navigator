@@ -4,10 +4,16 @@
     <label for="usernameStudentLogin">
       E-mail adres
       <input type="text" name="usernameLogin" id="usernameStudentLogin" placeholder="Vul hier je e-mail adres in">
+      <% if (typeof error !== 'undefined') { %>
+        <p style="color: red;"><%= error %></p>
+      <% } %>
     </label>
     <label for="passwordStudentLogin">
       Wachtwoord
       <input type="password" name="passwordLogin" id="passwordStudentLogin" placeholder="Vul hier je wachtwoord in">
+      <% if (typeof error !== 'undefined') { %>
+        <p style="color: red;"><%= error %></p>
+      <% } %>
     </label>
     <button type="submit"><i class="fa-solid fa-right-to-bracket"></i>Login</button>
     <button type="button" id="register-button"><i class="fa-solid fa-plus"></i>Registreren</button>
@@ -21,10 +27,16 @@
     <label for="usernameStudentRegister">
       E-mail adres
       <input type="text" name="usernameRegister" id="usernameStudentRegister" placeholder="Vul hier je e-mail adres in">
+      <% if (typeof error !== 'undefined') { %>
+        <p style="color: red;"><%= error %></p>
+      <% } %>
     </label>
     <label for="passwordStudentRegister">
       Wachtwoord
       <input type="password" name="passwordRegister" id="passwordStudentRegister" placeholder="Vul hier je wachtwoord in">
+      <% if (typeof error !== 'undefined') { %>
+        <p style="color: red;"><%= error %></p>
+      <% } %>
     </label>
     <button type="submit"><i class="fa-solid fa-right-to-bracket"></i>Registreer</button>
     <button type="button" id="login-button">Heb je al een account? Login</button>
